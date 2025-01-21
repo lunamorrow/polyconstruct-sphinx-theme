@@ -1,4 +1,4 @@
-name: mdanalysis-sphinx-theme-dev
+name: polyconstruct-sphinx-theme-dev
 channels:
   - conda-forge
 dependencies:

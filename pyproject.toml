@@ -6,14 +6,14 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mdanalysis_sphinx_theme"
-description = "Modification to sphinx_rtd_theme"
+name = "polyconstruct_sphinx_theme"
+description = "PolyConstruct Sphinx documentation theme - developed from MDAnalysis official Sphinx theme"
 license = {file = "LICENSE" }
 authors = [
-    {name = "MDAnalysis", email = "mdanalysis@numfocus.org"},
+    {name = "Luna Morrow", email = "uqlmorro@uq.edu.au"},
 ]
 maintainers = [
-    {name = "MDAnalysis", email = "mdanalysis@numfocus.org"},
+    {name = "Luna Morrow", email = "uqlmorro@uq.edu.au"},
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -48,10 +48,10 @@ dynamic = [
 ]
 
 [project.urls]
-source = "https://github.com/MDAnalysis/mdanalysis-sphinx-theme"
+source = "https://github.com/lunamorrow/polyconstruct-sphinx-theme"
 
 [project.entry-points."sphinx.html_themes"]
-mdanalysis_sphinx_theme = "mdanalysis_sphinx_theme"
+polyconstruct_sphinx_theme = "polyconstruct_sphinx_theme"
 
 [tool.setuptools]
 zip-safe = false
@@ -59,19 +59,16 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 namespaces = true
-include=["mdanalysis_sphinx_theme"]
+include=["polyconstruct_sphinx_theme"]
 
 [tool.setuptools.package-data]
-mdanalysis_sphinx_theme = [
+polyconstruct_sphinx_theme = [
     "theme.conf",
     "*.html",
     "static/*/*.*",
     "sass/*.*",
     "sass/*/*.*",
     "sass/bulma/sass/*/*.*",
-    "branding/*",
-    "branding/*/*",
-    "branding/*/*/*",
 ]
 
 [tool.versioningit]

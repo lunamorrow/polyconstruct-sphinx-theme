@@ -45,7 +45,7 @@ def dynamic_author_list():
     authors = ["Lily Wang"] + authors
 
     # Write the authors.py file.
-    out_path = current_dir / "mdanalysis_sphinx_theme" / "authors.py"
+    out_path = current_dir / "polyconstruct_sphinx_theme" / "authors.py"
     author_lines = "\n".join([f'    u"{name}",' for name in authors])
     template = f"""\
 #-*- coding:utf-8 -*-
@@ -61,7 +61,7 @@ __authors__ = [
 
 
 def copy_mda_assets():
-    static_dir = Path('.') / 'mdanalysis_sphinx_theme' / 'static'
+    static_dir = Path('.') / 'polyconstruct_sphinx_theme' / 'static'
     branding_dir = Path('.') / 'branding'
 
     # outdir for logos and icons

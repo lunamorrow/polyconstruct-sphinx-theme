@@ -9,8 +9,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "MDAnalysis Sphinx theme"
-html_title = "MDAnalysis Sphinx theme"
+project = "PolyConstruct Sphinx theme"
+html_title = "PolyConstruct Sphinx theme"
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -19,9 +19,9 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath("."))
-import mdanalysis_sphinx_theme  # noqa: E402
+import polyconstruct_sphinx_theme  # noqa: E402
 
-authors = ", ".join(mdanalysis_sphinx_theme.__authors__)
+authors = ", ".join(polyconstruct_sphinx_theme.__authors__)
 copyright = "2023, " + authors
 
 # -- General configuration ---------------------------------------------------
@@ -85,7 +85,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "mdanalysis_sphinx_theme"
+html_theme = "polyconstruct_sphinx_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -102,12 +102,7 @@ html_sidebars = {
     "subpage/second-subsubpage": ["globaltoc.html", "searchbox.html"],
 }
 
-html_theme = "mdanalysis_sphinx_theme"
-
-extra_nav_links = {}
-extra_nav_links["MDAnalysis"] = "http://mdanalysis.org"
-extra_nav_links["MDAnalysis docs"] = "http://docs.mdanalysis.org"
-extra_nav_links["@mdanalysis"] = "https://twitter.com/mdanalysis"
+html_theme = "polyconstruct_sphinx_theme"
 
 
 # material theme options (see theme.conf for more information)
@@ -116,8 +111,6 @@ html_theme_options = {
     # e.g. using the official MDAnalysis logo and favicon
     # and using the MDAnalysis privacy policy
     "mda_official": True,
-    # Extra navigation links to show on the sidebar, before the table of contents
-    "extra_nav_links": extra_nav_links,
     # The background colour of the logo area in the navigation bar
     "sidebar_logo_background": "#ffffff",
     # The background colour of the top navigation bar on mobile

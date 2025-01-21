@@ -1,10 +1,10 @@
-`mdanalysis-sphinx-theme`
+`polyconstruct-sphinx-theme`
 =========================
 
-This builds on [msmb_theme](https://github.com/msmbuilder/msmb_theme) to apply slight modifications to
-`sphinx_rtd_theme`. It needs the forementioned theme to be installed.
-
-[See example docs on RTD here](https://mdanalysis-sphinx-theme.readthedocs.io/en/latest/)
+This builds on [mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme)
+and [msmb_theme](https://github.com/msmbuilder/msmb_theme)
+to apply slight modifications to `sphinx_rtd_theme`. It needs the forementioned
+theme to be installed.
 
 ## Code of conduct
 
@@ -12,5 +12,6 @@ All members of the MDAnalysis community and participants are expected to abide b
 
 ## Acknowledgements
 
-This theme builds on [msmb_theme](https://github.com/msmbuilder/msmb_theme)
-and the [openff-sphinx-theme](https://github.com/openforcefield/openff-sphinx-theme).
+This theme builds on [mdanalysis-sphinx-theme](https://github.com/MDAnalysis/mdanalysis-sphinx-theme),
+[msmb_theme](https://github.com/msmbuilder/msmb_theme) and the
+[openff-sphinx-theme](https://github.com/openforcefield/openff-sphinx-theme).
