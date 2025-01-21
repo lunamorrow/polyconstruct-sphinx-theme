@@ -62,16 +62,15 @@ __authors__ = [
 
 def copy_mda_assets():
     static_dir = Path('.') / 'polyconstruct_sphinx_theme' / 'static'
-    branding_dir = Path('.') / 'branding'
 
     # outdir for logos and icons
     static_logos = static_dir / 'logo'
 
     # main logo to appear in nav bar
-    mda_logo_base_file = 'mdanalysis-logo_bgwhite@600ppi.png'
-    mda_logo = branding_dir / 'logos' / 'rastered' / mda_logo_base_file
+    mda_logo_base_file = 'polyconstruct_logo.png'
+    mda_logo = static_dir / 'logo' / mda_logo_base_file
 
-    mda_favicon = branding_dir / 'logos' / 'icons' / 'mdanalysis-logo.ico'
+    mda_favicon = static_dir / 'logo' / 'placeholder_favicon.svg'
 
     if not mda_logo.exists():
         raise FileNotFoundError("Could not find the MDAnalysis logo. "

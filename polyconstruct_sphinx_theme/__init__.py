@@ -18,7 +18,7 @@ except ImportError:
 
 
 from importlib.metadata import version
-__version__ = version("mdanalysis_sphinx_theme")
+__version__ = version("polyconstruct_sphinx_theme")
 
 
 def setup(app):
@@ -27,7 +27,7 @@ def setup(app):
 
     app.site_pages = []
     app.add_html_theme(
-        "mdanalysis_sphinx_theme", html_theme_path()[0]
+        "polyconstruct_sphinx_theme", html_theme_path()[0]
     )
     return {
         "version": __version__,
